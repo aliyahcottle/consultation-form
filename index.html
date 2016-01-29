@@ -18,11 +18,14 @@
 			<h1 class="title">Aliyah Cottle - Web Design & Development Client Questionnaire</h1>
 				<h3>(You don't have to fill in every question, just the ones that you think apply to you. The more information the better!)</h3>
 			<div class="main">
-				<form class="cbp-mc-form">
+
+				<form class="cbp-mc-form" action="mail.php" method="POST">
 					<div class="cbp-mc-column">
 
 						<!-- About the project -->
 						<h2>About the Project</h2>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="Name please"></input>
 						<label for="project_1">What best describes your organization?</label>
 						<select id="project_1" name="project_1">
 	  						<option>Choose a type</option>
@@ -114,7 +117,8 @@
 						<input type="text" id="feature_5" name="feature_5" placeholder=""></input>	
 
 						<label for="feature_6">What is your budget or budget range for this project?</label>	
-						<input type="text" id="feature_6" name="feature_6" placeholder="Consider my fee, domain costs, outside sources"></input>	
+						<textarea id="feature_6" name="feature_6" placeholder="Consider my fee, domain costs, outside sources"></textarea>
+						
 					</div>
 					<div class="cbp-mc-column">
 
@@ -160,7 +164,7 @@
 
 					<div class="cbp-mc-submit-wrap">
 						<label for="lastwords">Any last words?</label>
-						<textarea id="lastwords" name="lastwords" placeholder="Come on, don't be shy"></textarea>
+						<textarea id="lastwords" name="lastwords" placeholder="Come on, don't be shy..."></textarea>
 					</div>
 
 	  				<div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Send your data" /></div>

@@ -20,7 +20,7 @@
 
 .cbp-mc-form label {
 	display: block;
-	padding: 40px 5px 5px 2px;
+	padding: 45px 5px 5px 2px;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -42,7 +42,7 @@
 
 .cbp-mc-form input,
 .cbp-mc-form textarea {
-	border: 3px solid #fff;
+	border: 3px solid #BCA474;
 }
 
 .cbp-mc-form textarea {
@@ -54,7 +54,7 @@
 .cbp-mc-form label:active + input,
 .cbp-mc-form label:active + textarea {
 	outline: none;
-	border: 3px solid #10689a;
+	border: 3px solid #BCA474;
 }
 
 .cbp-mc-form select:focus {
@@ -62,22 +62,22 @@
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color: #10689a;
+    color: #FFF;
     font-style: italic;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #10689a;
+    color: #ED503D;
     font-style: italic;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #10689a;
+    color: #ED503D;
     font-style: italic;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: #10689a;
+    color: #ED503D;
     font-style: italic;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .cbp-mc-form input.cbp-mc-submit {
-	background: #10689a;
+	background: #515A63;
 	border: none;
 	color: #fff;
 	width: auto;
@@ -102,7 +102,9 @@
 }
 
 .cbp-mc-form input.cbp-mc-submit:hover {
-	background: #1478b1;
+	background: #CCCCCC;
+	border: 3px solid #515A63;
+	color: #515A63;
 }
 
 @media screen and (max-width: 70em) {
