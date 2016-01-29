@@ -78,41 +78,4 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 ?>
 
-What best describes your organization?
-In short, what does your organization do?
-Who is your organization’s target market?
-Is this a new site or a redesign of an existing site?
-Describe the concept, project or service this site is intended to provide or promote.
-Who will be responsible for maintaining the site after launch for content and technical matters?
-Using adjectives and short phrases, describe the site’s desired look and feel.
-Do you have a visual identity that you are happy with (including brand identity and logo) or is that something you need designed or evolved?</label>
-
-What sites do you consider competitors? What are their strengths and weaknesses?
-What differentiates your product, services or ideas from your competition? What is the purpose of the redesign?
-Are there current specific issues with the current site you hope to correct or improve?
-What is the web address of your current website?
-Will you be keeping this address?
-Is your current site powered by a content management system? If so, which?
-What do you like and dislike about your current system?
-Approximately how many pages will be on the site?
-What features would you like to be included on the site?
-How much of the site content is already created?
-Are there any other technical requirements for the site that you haven’t mentioned so far?
-Does this project have a deadline? When are you hoping to launch?
-What is your budget or budget range for this project?
-To the best of your ability, describe the various groups that use the site. What are they hoping to accomplish?
-What are the general demographics of your audience (or site visitors)?
-For the purposes of this new site, which of these groups is the primary audience (the one you’d consider most important?)
-What primary action do you want your primary audience to take when visiting your site? 
-What audience needs does your existing site do a good job fulfilling? What audience needs aren’t being met by your current site? Where does it fall short?
-Do you already know what ecommerce solution you want to use?
-What kinds of products will you be selling?
-Do you currently use third party sites for sales (like Amazon, eBay, Etsy, etc.)?
-Will your site sell memberships or access to premium content on your site?
-What kind of reporting will you require from the site?
-How will payments be processed? Will you use PayPal or a standard merchant account?
-Any last words?
-
-
-
 
